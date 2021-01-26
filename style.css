@@ -1,0 +1,62 @@
+:root {
+    font-size: 16px;
+}
+
+.full-page-wrap {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient();
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -6.3rem;
+    left: 50%;
+    transform: translateX(-50%) scaleY(6) scaleX(1.15);
+}
+.notes {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+a {
+    display: block;
+    text-decoration: none;
+    width: 10rem;
+    line-height: 2rem;
+    background-color: thistle;
+    margin: .3rem auto;
+    text-align: center;
+}
+a:hover {
+    color: rgb(122, 98, 122);
+    background-color: gainsboro;
+}
+p {
+    width: 12rem;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: center;
+    transition: all .1s ease;
+    opacity: .3;
+}
+p:hover {
+    opacity: 1;
+}
